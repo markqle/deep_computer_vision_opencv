@@ -4,7 +4,7 @@ import cv2 as cv
 
 # cv.imshow('Bear', img)
 
-capture = cv.VideoCapture('video/dog.mp4')
+capture = cv.VideoCapture('video/pickleball.mov')
 
 while True:
     isTrue, frame = capture.read()
