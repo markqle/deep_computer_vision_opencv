@@ -20,7 +20,7 @@ for (x, y, w, h) in faces_rect:
 cv.imshow('Detected Faces', img)
 
 
-capture = cv.VideoCapture('video/pickleball.mov')
+capture = cv.VideoCapture('video/SNOW.mp4')
 
 while True:
     isTrue, frame = capture.read()
